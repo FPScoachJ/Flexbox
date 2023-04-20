@@ -18,7 +18,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 50px;
 }
 .fb{
     width: 10px;
@@ -31,14 +31,17 @@ button {
     width: 100px;
     margin: 3px;
 }
-.leftpane{
-    height: 100%;
-}
 body{
     background-color: lightgray;
 }
 p{
-    font-size: small;
+    font-size:medium;
+    padding: 0px;
+    margin: 0px;
+}
+
+.igLogo{
+    padding-top: 100px;
 }
 
 @media (max-width:640px){
